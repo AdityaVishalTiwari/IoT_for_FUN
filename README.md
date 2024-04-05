@@ -1,9 +1,9 @@
 # Hospital IoT Project with Fall Detection and Automated Lighting Control
 
-In this project, we have developed a smart system using MicroPython, focusing on patient safety and energy efficiency within a hospital environment. Our system integrates motion detection, fall detection, and automated lighting control to enhance patient care and optimize energy usage.
+This project utilizes MicroPython to create an IoT solution for hospital monitoring. It integrates motion detection systems with microcontrollers placed near patient beds, enabling real-time monitoring and automated response mechanisms. The system primarily focuses on fall detection and automated lighting control to enhance patient care and optimize energy usage.
 
 ## Project Overview
-In a hospital setting, patient safety is of paramount importance. Accidental falls can lead to serious injuries, and energy consumption must be managed efficiently. Our IoT project addresses these concerns by implementing the following key features:
+In a hospital setting, patient safety is of paramount importance. Accidental falls can lead to serious injuries, and energy consumption must be managed efficiently. This IoT project addresses these concerns by implementing the following key features:
 
 * Fall Detection: Utilizing motion detection sensors strategically placed near beds, our system can detect falls accurately. Upon detecting a fall, the system triggers alerts, notifying hospital staff promptly to assist the patient.
 
@@ -19,6 +19,12 @@ Our system consists of the following main components:
 * Alert System: In the event of a fall detection, the system triggers alert lights and sends notifications to hospital staff members for immediate assistance.
 
 * Automated Lighting System: The lighting system is controlled automatically based on predefined time schedules, ensuring energy efficiency and patient comfort.
+
+## Requirements
+* MicroPython-enabled microcontroller (e.g., ESP32)
+* Passive Infrared (PIR) motion sensors
+* LEDs or light sources
+* Internet connectivity for IoT communication
 
 ## Code Overview
 Python code used in our project, written in MicroPython, which runs on the microcontroller. The code includes functions for:
