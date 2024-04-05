@@ -5,7 +5,7 @@ In this project, we have developed a smart system using MicroPython, focusing on
 ## Project Overview
 In a hospital setting, patient safety is of paramount importance. Accidental falls can lead to serious injuries, and energy consumption must be managed efficiently. Our IoT project addresses these concerns by implementing the following key features:
 
-* Fall Detection: Utilizing motion detection sensors strategically placed near beds, our system can detect falls accurately. Upon detecting a fall, the system triggers alerts, notifying hospital staff promptly to provide assistance to the patient.
+* Fall Detection: Utilizing motion detection sensors strategically placed near beds, our system can detect falls accurately. Upon detecting a fall, the system triggers alerts, notifying hospital staff promptly to assist the patient.
 
 * Automated Lighting Control: The lighting system within the hospital is automated based on the time of day. Lights are automatically turned off during the daytime to conserve energy and turned on in the evening for better visibility. Additionally, during the night, main lights are turned off, and night lights are activated to ensure a comfortable environment for patients while minimizing disturbance.
 
@@ -29,8 +29,8 @@ Python code used in our project, written in MicroPython, which runs on the micro
 4. Implementing fall detection logic and automated lighting control based on time schedules.
 
 ## Implementation
-1> Set up your microcontroller environment with MicroPython.
-2> Connect the necessary hardware components, including PIR sensors, lights, and alert systems.
-3> Write the code
-4> Customize the code as needed to match your hardware configuration and requirements.
-5> Upload the modified code to microcontroller and ensure proper functioning.
+1) Set up your microcontroller environment with MicroPython.
+2) Connect the necessary hardware components, including PIR sensors, lights, and alert systems.
+3) Write the code.
+4) Customize the code as needed to match your hardware configuration and requirements.
+5) Upload the modified code to the microcontroller and ensure proper functioning.
